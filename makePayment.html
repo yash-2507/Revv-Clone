@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="cssFiles/makePayment.css">
+</head>
+
+<body>
+
+  <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" alt=""
+    style="display: block; margin: auto; margin-top: 20px;">
+  <div id="grand">
+
+    <div id="head">
+      <div>
+        <div>Total amount to be paid</div>
+        <div>(Inclusive of all taxes)</div>
+      </div>
+      <div id="amount">₹ 2000</div>
+    </div>
+
+    <div id="body">
+      <div class="openSecond">
+        <div>
+          <img src="https://www.revv.co.in/imgs/payment/web_cc_card.png" alt="">
+          <h3>` Cradit Card</h3>
+        </div>
+        <button><img src="https://www.revv.co.in/static/media/arrow-icon.7ff63418.svg" alt="\/"></button>
+      </div>
+      <div class="toOpen">
+        <label for="">Credit card number:</label>
+        <input type="number" style="width: 98%; height: 30px;">
+        <label for="">Card holder name:</label>
+        <input type="number" style="width: 98%; height: 30px;">
+        <div style="display: flex; justify-content: space-between;">
+          <div style="width: 100%; display: inline;">
+            <label for="ex1">Expiry date:</label><br>
+            <input type="text" style="width: 95%; height: 30px;" id="ex1">
+          </div>
+          <div style="width: 100%; display: inline;">
+            <label for="" style="width: 95%;display: block;">CVV code:</label>
+            <input type="text" style="width: 95%; height: 30px;" id="cvv1">
+          </div>
+        </div>
+
+        <button style="width: 100%; height: 40px; background: #60d0d0;">Buy Now</button>
+
+      </div>
+
+
+
+
+      <div class="openSecond">
+        <div>
+          <img src="https://www.revv.co.in/imgs/payment/web_cc_card.png" alt="">
+          <h3>` Debit Card</h3>
+        </div>
+        <button><img src="https://www.revv.co.in/static/media/arrow-icon.7ff63418.svg" alt="\/"></button>
+      </div>
+      <div class="toOpen">
+        <label for="">Debit card number:</label>
+        <input type="number" style="width: 98%; height: 30px;">
+        <label for="">Card holder name:</label>
+        <input type="number" style="width: 98%; height: 30px;">
+        <div style="display: flex; justify-content: space-between;">
+          <div style="width: 100%; display: inline;">
+            <label for="ex1">Expiry date:</label><br>
+            <input type="text" style="width: 95%; height: 30px;" id="ex1">
+          </div>
+          <div style="width: 100%; display: inline;">
+            <label for="" style="width: 95%;display: block;">CVV code:</label>
+            <input type="text" style="width: 95%; height: 30px;" id="cvv1">
+          </div>
+        </div>
+        <button style="width: 100%; height: 40px; background: #60d0d0;">Buy Now</button>
+      </div>
+
+
+
+
+      <div class="openSecond">
+        <div>
+          <img src="https://www.revv.co.in/imgs/payment/web_paytm.png" alt="" id="logoPaytm">
+        </div>
+        <div>
+          <p><a href="">Link Acount</a></p>
+        </div>
+      </div>
+      <div class="toOpen">
+        <label for="">enter your mobile number</label>
+        <input type="number">
+      </div>
+
+
+
+
+      <div class="openSecond">
+        <div>
+          <img src="https://www.revv.co.in/imgs/payment/web_amazonpay.png" alt="" id="logoAmazon">
+        </div>
+        <div>
+          <p><a href="">Link Acount</a></p>
+        </div>
+      </div>
+      <div class="toOpen">
+        <label for="">enter your mobile number</label>
+        <input type="number">
+      </div>
+
+
+
+
+      <div class="openSecond">
+        <div><img src="https://www.revv.co.in/imgs/payment/web_net_banking.png" alt="">
+          <h3>` Net Banking</h3>
+          <!-- <button></button> -->
+        </div>
+
+        <button>
+          <img src="https://www.revv.co.in/static/media/arrow-icon.7ff63418.svg" alt="\/">
+        </button>
+
+      </div>
+      <div class="toOpen">
+        <div style="display: flex; justify-content: space-evenly; font-size: 14px;text-align: center;">
+          <div class="fiveBank">
+            <img src="https://cdn.razorpay.com/bank/HDFC.gif" alt="">
+            HDFC
+          </div>
+          <div class="fiveBank">
+            <img src="https://cdn.razorpay.com/bank/ICIC.gif" alt="">
+            ICIC
+          </div>
+          <div class="fiveBank">
+            <img src="https://cdn.razorpay.com/bank/UTIB.gif" alt="">
+            UTIB
+          </div>
+          <div class="fiveBank">
+            <img src="https://cdn.razorpay.com/bank/SBIN.gif" alt="">
+            SBIN
+          </div>
+          <div class="fiveBank">
+            <img src="https://cdn.razorpay.com/bank/KKBK.gif" alt="">
+            KKBK
+          </div>
+
+        </div>
+        <div style="height: 20px;"></div>
+        <label for="slectedBank" style="margin-top: 10px;">selected Bank</label>
+        <input id="slectedBank" style="margin: auto;" type="text">
+        <button id="openList" style="width: 90%; height: 40px; background: #60d0d0; margin: 10px;">select
+          another</button>
+        <div id="bankList"
+          style="display: none; color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px, rgba(0, 0, 0, 0.22) 0px 10px 18px; border-radius: 2px;">
+          <div
+            style="margin: 0px 0px -1px; padding: 24px 27px 20px; color: rgb(56, 65, 80); font-size: 16px; line-height: 12px; font-weight: 600; font-family: Rubik; position: relative;">
+            <div class="search-bank">
+              <input type="text" class="form-control" placeholder="Search and select your bank">
+            </div>
+
+          </div>
+          <div
+            style="font-size: 16px; color: rgba(0, 0, 0, 0.6); padding: 0px 24px 24px; box-sizing: border-box; overflow-y: auto; border-top: 1px solid rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); max-height: 440px;">
+            <div style="padding: 0px;">
+              <div>
+                <span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/AUBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">AU Small Finance Bank</div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/AIRP.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Airtel Payments Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/ANDB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Andhra Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/UTIB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Axis Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/BDBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bandhan Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/BBKM.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bank of Bahrein and Kuwait</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/BARB_R.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bank of Baroda - Retail Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/VIJB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bank of Baroda - Retail Banking (Erstwhile Vijaya Bank)</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/BKID.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bank of India</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/MAHB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bank of Maharashtra</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/BACB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Bassein Catholic Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/CNRB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Canara Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/CSBK.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Catholic Syrian Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/CBIN.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Central Bank of India</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/CIUB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">City Union Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/COSB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Cosmos Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/DCBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">DCB Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/DEUT.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Deutsche Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/DBSS.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Development Bank of Singapore</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/DLXB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Dhanlaxmi Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/DLXB_C.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Dhanlaxmi Bank - Corporate Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/ESFB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Equitas Small Finance Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/FDRL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Federal Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/FSFB.gif"
+                        style="opacity: 1;  filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Fincare Small Finance Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/HDFC.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">HDFC Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/HSBC.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">HSBC</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/ICIC.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">ICICI Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/IBKL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">IDBI</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/IBKL_C.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">IDBI - Corporate Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/IDFB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">IDFC FIRST Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/IDIB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Indian Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/ALLA.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Indian Bank (Erstwhile Allahabad Bank)</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/IOBA.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Indian Overseas Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/INDB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Indusind Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/JAKA.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Jammu and Kashmir Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/JSFB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Jana Small Finance Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px;
+                          outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/JSBP.gif" styl class="bn2"
+                        e="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div>Janata Sahakari Bank (Pune)</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/KCCB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Kalupur Commercial Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/KJSB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Kalyan Janata Sahakari Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/KARB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Karnataka Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/KVBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Karur Vysya Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/KKBK.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Kotak Mahindra Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/LAVB_C.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Lakshmi Vilas Bank - Corporate Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/LAVB_R.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Lakshmi Vilas Bank - Retail Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/MSNU.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Mehsana Urban Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/NKGS.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">NKGSB Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/NSPB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">NSDL Payments Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/NESF.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">North East Small Finance Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+
+                      <img src="https://cdn.razorpay.com/bank/ORBC.gif" styl class="bn2"
+                        e="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div>PNB (Erstwhile-Oriental Bank of Commerce)</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/UTBI.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">PNB (Erstwhile-United Bank of India)</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/PSIB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Punjab &amp; Sind Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/PUNB_R.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Punjab National Bank - Retail Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/RATN.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">RBL Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/ABNA.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Royal Bank of Scotland N.V.</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SVCB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">SVC Co-Operative Bank Ltd.</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SVCB_C.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">SVC Co-Operative Bank Ltd. - Corporate Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SRCB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Saraswat Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SIBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">South Indian Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SCBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Standard Chartered Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SBBJ.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">State Bank of Bikaner and Jaipur</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SBHY.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">State Bank of Hyderabad</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SBIN.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">State Bank of India</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SBMY.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">State Bank of Mysore</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/STBP.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">State Bank of Patiala</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SBTR.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">State Bank of Travancore</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SURY.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Suryoday Small Finance Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/SYNB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Syndicate Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/TMBL.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Tamilnadu Mercantile Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/TNSC.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Tamilnadu State Apex Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src=""
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Thane Bharat Sahakari Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src=""
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Thane Janata Sahakari Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src=""
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">UCO Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/UBIN.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Union Bank of India</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/CORP.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Union Bank of India (Erstwhile Corporation Bank)</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/YESB.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Yes Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/bank/YESB_C.gif"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Yes Bank - Corporate Banking</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+            <div style="padding: 0px;">
+              <div><span class="bName" tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; color: rgba(0, 0, 0, 0.87); line-height: 16px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background: none;">
+                  <div>
+                    <div style="margin-left: 0px; padding: 16px 16px 16px 72px; position: relative;">
+                      <img src="https://cdn.razorpay.com/imgs/payment/default-bank.png"
+                        style="opacity: 1; filter: blur(0px); transition: all 0.5s ease 0s; cursor: pointer; width: 24px; margin-right: 10px;">
+                      <div class="bn2">Zoroastrian Co-operative Bank</div>
+                    </div>
+                  </div>
+                </span></div>
+            </div>
+          </div>
+        </div>
+
+        <button style="width: 90%; height: 40px; background: #60d0d0; margin: 10px;">Buy Now</button>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+  <script src="jsFiles/makePayment.js" async defer></script>
+</body>
+
+</html>

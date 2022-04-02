@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* header style start  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+
+  .navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+#logoImage1{
+    height:50px;
+     margin-left: 100px; 
+     position: relative;
+     
+}
+
+
+#sanitisedL{
+    margin-top:40px; 
+    margin-left: 130px; 
+    font-size: 11px; 
+    font-family: 'Poppins';
+     position: absolute;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+.break {
+    float: left;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: rgb(174,174,174);
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 18px;
+}
+
+.title_1 {
+    color: rgb(174,174,174);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 18px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+.menu>ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu>ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 64, 67);
+}
+
+.menu>ul li a:hover {
+    color: teal;
+}
+
+.menu>ul li img {
+    margin-right: 5px;
+}
+  /* header style end  */
+  
+  #mainContainr {
+   width: 90%;
+   margin: 60px auto;
+   display: flex;
+   margin-top: 60px;
+   padding: 10px;
+  }
+  /* left container style start  */
+  #leftContainer {
+    width: 30%;
+  }
+  
+  .unboxed {
+   width: 12%;
+   height: 10px;
+    padding: 10px 30px;
+    background-color: #1fbab5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+  }
+  
+  .unboxed > p {
+    color: white;
+    font-family: "popins", sans-serif;
+    font-size: 11px;
+    padding: 5px 5px;
+    font-weight: 100;
+  }
+  
+  .name > h2 {
+    color: #1b1c24;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .type{
+      display: flex;
+  }
+  
+  .diesel{
+      display: inline-block;
+  }
+  
+  .tag{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .tag>div{
+      margin: 5px;
+  }
+  
+  .paraContent{
+      color: #595969CC;
+  }
+  
+  .diese>div>p{
+      color: black;
+  }
+  
+  .location{
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+  }
+  
+  .dottedLine{
+      border-top: 0.1px dashed rgba(89,89,105,.5);;
+  }
+  
+  .heading{
+      font-family: 'poppins',sans-serif;
+      font-size: 20px;
+      color: #1B1C24CC;
+      margin: 40px 0 18px;
+  }
+  
+  .circle>div{
+      float: left;
+      margin: 0 16px 0 0;
+     
+  }
+  .vertLine{
+      border-left: 1px solid #e5e5e5;
+      color: #7c7c7d;
+      padding: 25px 55px 25px 28px;
+      margin-left: 11px;
+      
+  }
+  
+  .stepText>p{
+      color: black;
+      font-family: 'poppins',sans-serif;
+      font-size: 14px;
+      margin: 2px 0 0 0;
+      font-weight: bold;
+  }
+  
+  #rightContainer{
+      width: 70%;
+      margin-left: 50px;
+  }
+  
+  .blue{
+      width: 81%;
+      margin: auto;
+      display: flex;
+      height: 50px;
+      font-size: 10px;
+
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      font-family: 'poppins';
+      background-color: #05BAB5;
+      box-shadow: 0 2px 6px 0 rgb(0 0 0 / 16%);
+      border-radius: 4px;
+  }
+  
+  .paymentContainer{
+      width: 80%;
+      margin: 0 auto 20px;
+      box-shadow: 0 2px 6px 0 rgb(0 0 0 / 16%);
+      padding: 0 0 50px 10px;
+  }
+  
+  h3{
+      font-family: 'Poppins',sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #1b1c24;
+  }
+  .blue>div{
+      font-family: 'Poppins',sans-serif;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;   
+  }
+  
+  .fastDiv{
+      display: flex;
+      align-items: center;
+  }
+  
+  .fastDiv>button{
+      width: 21px;
+      height: 21px;
+      box-shadow: rgba(0, 0, 0, 0.27) 0px 0px 6px 0px;
+      background-color: #fff;
+      border: none;
+      margin-right: 8px;
+      border-radius: 50%;
+  }
+  
+  .fastDiv>button>i{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 2px;
+  }
+  .fa-circle-check{
+      color:#05BAB5;
+  }
+  
+  .deliveryDetails{
+      margin-left: 20px;
+  }
+  .bookingBox{
+      width: 75%;
+      background-color: #F0F3F7;
+      padding: 15px 20px;
+      border-radius: 3px;
+  }
+  
+  .bookingBox>p{
+      font-family: 'popins',sans-serif;
+      color: #1B1C24;
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+  }
+  
+  span{
+      font-size: 25px;
+      font-weight: bold;
+      margin: 0 2px;
+  }
+  
+  .ulDiv>ul>li{
+      margin: 14px 0;
+      color: #1B1C24CC;
+      font-family: 'popins',sans-serif;
+      font-size: 15px;
+  }
+  
+  .inputDiv{
+      display: flex;
+      margin-top: 15px;
+  }
+  
+  .add>div{
+      width: 24px;
+      height: 24px;
+      padding-top: 5px;
+      margin-right: 10px;
+  }
+  
+  .add>div>img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .map{
+      display: flex;
+      padding: 10px;
+      border-bottom: 1px solid grey;
+  }
+  
+  .downArrow{
+      margin-left: 200px;
+  }
+  
+  .input{
+      border: none;
+      font-family: sans-serif;
+      color: #8D8E92;
+      font-weight: 600;
+      margin-right: 60px;
+  }
+  
+  .bottomDiv{
+      background-image: linear-gradient(270deg,#1caba2 25%,#1c7fab);
+  }
+  .fa-angle-right{
+      margin-left: 17px;
+  }

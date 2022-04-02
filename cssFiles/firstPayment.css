@@ -1,0 +1,2015 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#video{
+    width: 500px;
+    height: 250px;
+}
+body{
+    font-family: 'poppins';
+    background-color: rgb(253, 251, 251);
+}
+
+/* Nav Creation */
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* position: fixed;
+    top: 0; */
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+#logoImage1{
+    height:50px;
+     margin-left: 100px; 
+     position: relative;
+     
+}
+
+
+#sanitisedL{
+    margin-top:40px; 
+    margin-left: 130px; 
+    font-size: 11px; 
+    font-family: 'Poppins';
+     position: absolute;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+.break {
+    float: left;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: rgb(174,174,174);
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 18px;
+}
+
+.title_1 {
+    color: rgb(174,174,174);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 18px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+.menu>ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu>ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 64, 67);
+}
+
+.menu>ul li a:hover {
+    color: teal;
+}
+
+.menu>ul li img {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+/*MAIN CONTAINER */
+
+#mainContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+}
+#carContainer{
+    height: 100%;
+    width: 60%;
+}
+#paymentContainer{
+    width: 35%;
+    height: 500px;
+    margin-top: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: sticky;
+    top: 30px;
+
+}
+#monthSubs
+{
+    width: 60%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#monthSubs>div{
+      text-align: center;
+      width: 27%;
+      border: 1px solid rgb(199, 199, 199);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#monthSubs>div:last-child{
+    background-color: #1C8FA8;
+    font-weight: 900;
+     
+}
+#carName{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 26px;
+}
+#firstP{
+   padding-left: 20px;
+   margin-bottom: 5px;
+}
+
+.current{
+    margin-left: -55px;
+    margin-top: -20px;
+}
+.PTag{
+    margin-top: -25px;
+    color: black;
+}
+.mon{
+    margin-top: -7px;
+    color: black;
+}
+.LTag{
+    margin-top: -25px;
+    color: rgb(255, 246, 246);
+}
+.Lmon{
+    margin-top: -7px;
+    color: rgb(255, 255, 255);
+}
+#perMonth{
+    font-size: 18px;
+    color: grey;
+}
+#cutPrice{
+    text-decoration: line-through;
+    font-size: 18px;
+}
+#rupee{
+    text-decoration: line-through;
+    font-size: 18px;
+}
+#percent{
+    font-size: 18px;
+   color: #1C8FA8;
+}
+#payment{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#tax{
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: 23px;
+    
+}
+#proceed{
+    width: 90%;
+    height: 50px;
+  margin-left: 20px;  
+  margin-top: 10px;  
+  font-size: 20px;
+  color: white;
+  background-color: #1C92A7;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+#expected{
+    font-size: 12px;
+    margin-left: 30px;
+
+}
+#delivery{
+    font-size:12px;
+    margin-left:20px;
+    
+}
+#del{
+    font-size: 13px;
+    color: #1B1C24;
+    font-weight: 600;
+    margin-left:30px;
+}
+#status{
+    font-size: 10px;
+    text-align: left;
+    color: #f7c31a;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+#text1,#text2{
+    display: inline-block;
+}
+#right1{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#detail1{
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+#right2{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#detail2{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#call{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+    margin-left: 20px;
+
+}
+#callImage{
+    margin-right: 20px;
+    width: 16px;
+    height: 17px;
+}
+#call>p{
+    color: #1CABA2;
+    font-weight: 900;
+}
+
+/* Car part Creation */
+
+#carDetail{
+    width: 95%;
+    margin: 10px;
+    /* background-color: rgb(245, 241, 241); */
+}
+#cars{
+    width: 100%;
+    height: 350px;
+}
+#carFun{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    margin-top: 10px;
+}
+.p1{
+    font-size: 10px;
+}
+.p2{
+    font-size: 13px;
+    margin-top: -5px;
+    font-weight: 600;
+}
+#carFun>div>i{
+    font-size: 20px;
+}
+#carFun>div>img{
+    width: 25px;
+    height: 20px;
+
+}
+
+
+#buysub{
+    margin-top: 100px;
+    font-weight: 900;
+    margin-left: 20px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    
+}
+#buyAndSub{
+    display: flex;
+    margin-top: 20px;
+    height: 150px;
+}
+
+#firstBuySub{
+    margin-left: 10px;
+    margin-top: 6px;
+    line-height: 30px;
+}
+#firstBuySub>p{
+    width: 170%;
+    border-top: 1px solid rgb(192, 190, 190);
+}
+#secondBuySub{
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: -50px;
+    text-align: center;
+    line-height: 30px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 18%;
+    
+    
+}
+#secondBuySub img{
+      width: 20px;
+      height: 20px;
+      
+     
+}
+#thirdBuySub{
+    margin-top: -50px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+#thirdBuySub img{
+    width: 15px;
+      height: 15px;
+
+}
+#thirdBuySub>p{
+    font-size: 18px;
+}
+#viewButton{
+       width: 120px;
+       height: 40px;
+       color: #1CABA2;
+       background:none;
+       border: 1px solid rgb(199, 199, 199);
+       font-weight: 900;
+       margin-left: 20px;
+}
+
+
+#insurance{
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#insurance2
+{
+    margin-left: 110px;
+}
+
+#maintain{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+#maintain2{
+    margin-left: 100px;
+}
+#maintain3{
+    margin-left: 100px;
+}
+#pInso{
+    font-size: 20px;
+}
+
+#pMain{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#normal{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#normal2{
+    margin-left: 100px;
+}
+#normal3{
+    margin-left: 100px;
+}
+
+#normalV{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#normalV3{
+    margin-left: 100px;
+}
+
+#normalV2{
+    margin-left: 163px;
+}
+
+
+#pNor{
+    font-size: 13px;
+}
+
+#knowButton{
+    width: 120px;
+    height: 40px;
+    color: #1CABA2;
+    background:none;
+    border: 1px solid rgb(199, 199, 199);
+    font-weight: 900px;
+    margin-left: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#blueDiv{
+    height: 600px;
+    width: 100%;
+    background-color: #1CA1A4;
+}
+#video{
+    margin-left: 110px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+#blueH{
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+    
+
+}
+#sani{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#sani1
+{
+ margin-left: 120px
+ 
+}
+#sani1,#sani2,#sani3 p{
+    color: white;
+}
+
+#sani2{
+    margin-left: 100px;
+}
+#sani3{
+    margin-left: 100px;
+}
+
+
+/* foter creation */
+#midFoter{
+    width: 100%;
+    margin-top:-25px;
+    height: 350px;
+}
+#midDivFot
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ece8e8;
+
+    
+}
+#midDivFot>div:nth-child(1){
+    width: 30%;
+    height: 80%;
+    text-align: left;
+}
+#midDivFot>div:nth-child(2){
+    width: 20%;
+    height: 80%;
+}
+#midDivFot>div:nth-child(3){
+    width: 30%;
+    height: 80%;
+}
+
+#firstDiv li{
+    list-style: none;
+    
+}
+#firstDiv ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+#firstDiv ul a{
+    margin-right: 5px;
+    
+}
+#firstDiv i{
+    font-size:20px;
+    width: 30px;
+    text-align: center;
+    height: 27px;
+    padding-right: 2px;
+    padding-top: 8px;
+    border-radius: 50px;
+    background-color:#0EBABA;
+    color: #ffff;
+} 
+#firstDiv i:hover{
+    background-color:white;
+    color: #0EBABA;
+}
+#firstDiv>img{
+    width: 105px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#secondDiv li{
+    list-style: none;
+
+}
+#secondDiv>li:first-child{
+    margin-top: 20px;
+}
+#secondDiv a{
+    text-decoration: none;
+    color: #5D5E6F;
+    font-family: 'poppins';
+    font-size: 17px;
+    
+}
+#secondDiv a:hover{
+    color: black;
+    font-weight: bold;
+}
+#secondDiv li{
+    text-align: justify;
+    margin-left: 80px;
+}
+#thirdDiv{
+    margin-top: 15px;
+}
+#tagP{
+    color: #5D5E6F;
+    margin-top: -25px;
+}#logoTitle{
+    font-size: 12px;
+    color: black;
+    padding-left: 30px;
+    margin-top: -20px;
+}
+#socialPtag{
+      font-size: 17px;
+    margin-left: 50px;
+    color: #5D5E6F;
+}
+#oneFot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 49px;
+    margin-top: 7px;
+    margin-left: 50px;
+    background-color: #ffff;
+}
+#oneFot a{
+    text-decoration: none;
+    color: #5D5E6F;
+}
+/* #oneFot a:hover{
+    color: #0EBABA;
+    font-weight: bold;
+} */
+#firstDiv h4{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #5D5E6F;
+
+}
+#oneFot img{
+    width: 18px;
+    height: 19px;
+}
+#oneFot h5{
+    margin-left: 10px;
+}
+#appTag{
+    color: black;
+    font-weight: bold;
+}
+#appTag:hover{
+    color: #0EBABA;
+    font-weight: bold;
+}
+
+
+/* CAR Slider */
+#cars>div{
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+      
+    
+  
+  }
+  #cars>div img{
+      height: 284px;
+      width: 639px;
+      margin-top: 30px;
+  }
+  #cars{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+ 
+  .arrow-right{
+      position: absolute;
+      top: 130px;
+      width: 50px;
+      border-radius: 50px;
+      text-align: center;
+      height: 50px;
+  }
+  .arrow-right{
+      margin-top: 10px;
+      font-size: 25px;
+  }
+  .arrow-left{
+      position: absolute;
+      right:0px;
+      margin-right: 30px;
+      top: 140px;
+      width: 50px;
+      border-radius: 50px;
+      text-align: center;
+      height: 50px;
+  }
+
+.item{
+    transition: 1s;
+}
+
+/* for medium screen sizes */
+
+@media all and (min-width:551px) and (max-width:940px)
+{
+     
+    #mainContainer{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+
+    #carContainer{
+        height: 100%;
+        width: 45%;
+    }
+
+    #carDetail{
+        width: 100%; 
+        margin: 10px;
+        /* background-color: rgb(245, 241, 241); */
+        /* border: 1px solid red; */
+    }
+    #cars{
+        width: 100%;
+        height: 350px;
+    }
+
+    #cars>div{
+        width: 100%;
+        margin-top: 20px;
+        display: none;
+          
+        
+      
+      }
+      #cars>div img{
+          height: 234px;
+          width: 350px;
+          margin-top: 30px;
+      }
+      .arrow-right{
+        position: absolute;
+        top: 130px;
+        width: 50px;
+        border-radius: 50px;
+        text-align: center;
+        height: 50px;
+    }
+    .arrow-right{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .arrow-left{
+        position: absolute;
+        right:0px;
+        margin-right: 0px;
+        top: 140px;
+        width: 50px;
+        border-radius: 50px;
+        text-align: center;
+        height: 50px;
+    }
+
+      #paymentContainer{
+        width: 45%;
+        height: 550px;
+        margin-top: 30px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        position: sticky;
+        top: 30px;
+    
+    }
+
+ #monthSubs
+{
+    width: 70%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#monthSubs>div{
+      text-align: center;
+      width: 30%;
+      border: 1px solid rgb(199, 199, 199);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#monthSubs>div:last-child{
+    background-color: #1C8FA8;
+    font-weight: 400;
+     
+}
+#carName{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 24   px;
+}
+#firstP{
+   padding-left: 20px;
+   margin-bottom: 5px;
+   
+}
+
+.current{
+    margin-left: -55px;
+    margin-top: -20px;
+}
+.PTag{
+    margin-top: -20px;
+    color: black;
+    font-size: 14px;
+}
+.mon{
+    margin-top: -5px;
+    color: black;
+    font-size: 14px;
+}
+.LTag{
+    margin-top: -20px;
+    color: rgb(255, 246, 246);
+    font-size: 14px;
+}
+.Lmon{
+    margin-top: -5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+#perMonth{
+    font-size: 15px;
+    color: grey;
+}
+#cutPrice{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+#rupee{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+#percent{
+    font-size: 13px;
+   color: #1C8FA8;
+}
+#payment{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#tax{
+    font-size: 10px;
+    margin-top: -5px;
+    margin-left: 23px;
+    
+}
+#proceed{
+    width: 80%;
+    height: 50px;
+  margin-left: 30px;  
+  margin-top: 10px;  
+  font-size: 20px;
+  color: white;
+  background-color: #1C92A7;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+#expected{
+    font-size: 10px;
+    margin-left: 30px;
+
+}
+#delivery{
+    font-size:10px;
+    margin-left:20px;
+    
+}
+#del{
+    font-size: 10px;
+    color: #1B1C24;
+    font-weight: 600;
+    margin-left:30px;
+}
+#status{
+    font-size: 9px;
+    text-align: left;
+    color: #f7c31a;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+#text1,#text2{
+    font-size: 10px;
+}
+#right1{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#detail1{
+    margin-left: 5px;
+    margin-right: 20px;
+
+}
+#right2{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#detail2{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+#call{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#callImage{
+    margin-right: 20px;
+    width: 10px;
+    height: 12px;
+}
+#call>p{
+    color: #1CABA2;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* position: fixed;
+    top: 0; */
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+#logoImage1{
+    height:40px;
+     margin-left: 50px; 
+     margin-top: 10px;
+     position: relative;
+     
+}
+
+
+#sanitisedL{
+    margin-top:40px; 
+    margin-left: 70px; 
+    font-size: 10px; 
+    font-family: 'Poppins';
+     position: absolute;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+.break {
+    float: left;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: rgb(174,174,174);
+}
+
+.title {
+    color: black;
+    font-size: 19px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 18px;
+}
+
+.title_1 {
+    color: rgb(174,174,174);
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 18px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+.menu>ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu>ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-top: 15px;
+
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 64, 67);
+}
+
+.menu>ul li a:hover {
+    color: teal;
+}
+
+.menu>ul li img {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+#carFun{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: -20px;
+}
+.p1{
+    font-size: 9px;
+}
+.p2{
+    font-size: 10px;
+    margin-top: -5px;
+    font-weight: 600;
+}
+#carFun>div>i{
+    font-size: 19px;
+}
+#carFun>div>img{
+    width: 20px;
+    height: 17px;
+
+}
+
+
+#buysub{
+    margin-top: 60px;
+    font-weight: 900;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    
+}
+#buyAndSub{
+    display: flex;
+    margin-top: 20px;
+    height: 150px;
+}
+
+#firstBuySub{
+    margin-left: 10px;
+    margin-top: 6px;
+    line-height: 20px;
+}
+#firstBuySub>p{
+    width: 150%;
+    border-top: 1px solid rgb(192, 190, 190);
+    font-size: 12px;
+}
+#secondBuySub{
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: -30px;
+    text-align: center;
+    line-height: 20px;
+    height: 120px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 12%;
+    
+    
+}
+#secondBuySub img{
+      width: 10px;
+      height: 15px;
+      
+     
+}
+#secondBuySub>p{
+    font-size: 9px;
+}
+#thirdBuySub{
+    margin-top: -30px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+#thirdBuySub img{
+    width: 10px;
+      height: 15px;
+
+}
+#thirdBuySub>p{
+    font-size: 10px;
+}
+#viewButton{
+       width: 70px;
+       height: 30px;
+       color: #1CABA2;
+       background:none;
+       font-size: 9px;
+       border: 1px solid rgb(199, 199, 199);
+       font-weight: 600;
+       margin-left: 20px;
+}
+
+
+#insurance{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+#insiH1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#insurance2
+{
+    margin-left: 10px;
+}
+#insurance2 p{
+    font-size: 14px;
+}
+
+#maintain{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+#maintain2{
+    margin-left: 10px;
+}
+#maintain3{
+    margin-left: 10px;
+}
+#pInso{
+    font-size: 15px;
+}
+
+#pMain{
+    margin-top: 20px;
+    font-size: 15px;
+}
+#normal{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#normal2{
+    margin-left: 20px;
+}
+#normal3{
+    margin-left: 20px;
+}
+
+#normalV{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#normalV3{
+    margin-left: 20px;
+}
+
+#normalV2{
+    margin-left: 60px;
+}
+.pT{
+    font-size: 12px;
+}
+
+
+#Pnor{
+    font-size: 10px;
+}
+
+#knowButton{
+    width: 100px;
+    height: 30px;
+    color: #1CABA2;
+    background:none;
+    border: 1px solid rgb(199, 199, 199);
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#video{
+    margin-left: 110px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    width:500px; 
+    height:240px;
+}
+
+#blueH{
+    margin-top: 20px;
+    margin-left: 160px;
+    color: white;
+    
+
+}
+
+
+
+/* foter creation */
+#midFoter{
+    width: 100%;
+    margin-top:-25px;
+    height: 350px;
+}
+#midDivFot
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ece8e8;
+
+    
+}
+#midDivFot>div:nth-child(1){
+    width: 30%;
+    height: 80%;
+    text-align: left;
+}
+#midDivFot>div:nth-child(2){
+    width: 20%;
+    height: 80%;
+}
+#midDivFot>div:nth-child(3){
+    width: 30%;
+    height: 80%;
+}
+
+#firstDiv li{
+    list-style: none;
+    
+}
+#firstDiv ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+#firstDiv ul a{
+    margin-right: 5px;
+    
+}
+#firstDiv i{
+    font-size:20px;
+    width: 30px;
+    text-align: center;
+    height: 27px;
+    padding-right: 2px;
+    padding-top: 8px;
+    border-radius: 50px;
+    background-color:#0EBABA;
+    color: #ffff;
+} 
+#firstDiv i:hover{
+    background-color:white;
+    color: #0EBABA;
+}
+#firstDiv>img{
+    width: 105px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#secondDiv li{
+    list-style: none;
+
+}
+#secondDiv>li:first-child{
+    margin-top: 20px;
+}
+#secondDiv a{
+    text-decoration: none;
+    color: #5D5E6F;
+    font-family: 'poppins';
+    font-size: 14px;
+    
+}
+#secondDiv a:hover{
+    color: black;
+    font-weight: bold;
+}
+#secondDiv li{
+    text-align: justify;
+    margin-left: 10px;
+}
+#thirdDiv{
+    margin-top: 15px;
+}
+#tagP{
+    color: #5D5E6F;
+    margin-top: -25px;
+}#logoTitle{
+    font-size: 12px;
+    color: black;
+    padding-left: 30px;
+    margin-top: -20px;
+}
+#socialPtag{
+      font-size: 17px;
+    margin-left: 10px;
+    color: #5D5E6F;
+}
+#oneFot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 49px;
+    margin-top: 7px;
+    margin-left: 10px;
+    background-color: #ffff;
+}
+#oneFot a{
+    text-decoration: none;
+    color: #5D5E6F;
+}
+
+}
+
+/* for small screen sizes */
+
+
+@media all and (min-width:50px) and (max-width:550px)
+{
+     
+    #mainContainer{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .navbar {
+        width: 100%;
+        height: 60px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        /* position: fixed;
+        top: 0; */
+        box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 16%);
+    }
+
+    #carContainer{
+        height: 100%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    #carDetail{
+        width: 100%; 
+        margin: 10px;
+        /* background-color: rgb(245, 241, 241); */
+    }
+    #cars{
+        width: 100%;
+        height: 350px;
+    }
+
+    #cars>div{
+        width: 100%;
+        margin-top: 20px;
+        display: none;
+          
+        
+      
+      }
+      #cars>div img{
+          height: 250px;
+          width: 350px;
+          margin-top: 30px;
+          margin-left: 50px;
+      }
+      .arrow-right{
+        position: absolute;
+        top: 130px;
+        width: 50px;
+        border-radius: 50px;
+        text-align: center;
+        height: 50px;
+    }
+    .arrow-right{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .arrow-left{
+        position: absolute;
+        right:0px;
+        margin-right: 0px;
+        top: 140px;
+        width: 50px;
+        border-radius: 50px;
+        text-align: center;
+        height: 50px;
+    }
+
+      #paymentContainer{
+        width: 100%;
+        height: 430;
+        margin-left: 10px;
+        /* display: none; */
+        margin-top: 30px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        /* position: sticky;
+        top: 30px; */
+    
+    }
+
+ #monthSubs
+{
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#monthSubs>div{
+      text-align: center;
+      width: 30%;
+      border: 1px solid rgb(199, 199, 199);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#monthSubs>div:last-child{
+    background-color: #1C8FA8;
+    font-weight: 400;
+     
+}
+#carName{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 28px;
+}
+#firstP{
+   padding-left: 20px;
+   margin-bottom: 5px;
+   font-size: 16px;
+   
+}
+
+.current{
+    margin-left: -55px;
+    margin-top: -20px;
+}
+.PTag{
+    margin-top: -20px;
+    color: black;
+    font-size: 16px;
+}
+.mon{
+    margin-top: -5px;
+    color: black;
+    font-size: 16px;
+}
+.LTag{
+    margin-top: -20px;
+    color: rgb(255, 246, 246);
+    font-size: 16px;
+}
+.Lmon{
+    margin-top: -5px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+#perMonth{
+    font-size: 22px;
+    color: grey;
+}
+#cutPrice{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+#rupee{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+#percent{
+    font-size: 20px;
+   color: #1C8FA8;
+}
+#payment{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#tax{
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 23px;
+    
+}
+#proceed{
+    width: 80%;
+    height: 50px;
+  margin-left: 30px;  
+  margin-top: 10px;  
+  font-size: 18px;
+  color: white;
+  background-color: #1C92A7;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+#expected{
+    font-size: 13px;
+    margin-left: 30px;
+
+}
+#delivery{
+    font-size:13px;
+    margin-left:20px;
+    
+}
+#del{
+    font-size: 13px;
+    color: #1B1C24;
+    font-weight: 600;
+    margin-left:30px;
+}
+#status{
+    font-size: 13px;
+    text-align: left;
+    color: #f7c31a;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+#text1,#text2{
+    font-size: 10px;
+    display: none;
+}
+#right1{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    display: none;
+}
+#detail1{
+    margin-left: 5px;
+    margin-right: 20px;
+    display: none;
+
+}
+#right2{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+}
+#detail2{
+    margin-left: 5px;
+    margin-right: 20px;
+    display: none;
+}
+#call{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#callImage{
+    margin-right: 20px;
+    width: 20px;
+    height: 16px;
+}
+#call>p{
+    color: #1CABA2;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+#logoImage1{
+    height:40px;
+     margin-left: 40px; 
+     margin-top: 10px;
+     position: relative;
+     
+}
+
+
+#sanitisedL{
+    margin-top:38px; 
+    margin-left: 65px; 
+    font-size: 12px; 
+    font-family: 'Poppins';
+     position: absolute;
+}
+.break{
+    margin-left: 10px;
+}
+
+.logo {
+    width: 90px;
+    float: left;
+    height: 50px;
+    display: flex;
+}
+
+.break {
+    float: left;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: rgb(174,174,174);
+}
+
+.title {
+    color: black;
+    font-size: 19px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 18px;
+}
+
+.title_1 {
+    color: rgb(174,174,174);
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 23px;
+}
+
+.menu {
+    width: 100px;
+    float: left;
+    height: 80px;
+    
+}
+
+.menu>ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu>ul li {
+    list-style: none;
+    font-size: 9px;
+    margin-top: 15px;
+
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    font-size: 7px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 64, 67);
+}
+
+.menu>ul li a:hover {
+    color: teal;
+}
+
+.menu>ul li img {
+    margin-right: 15px;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+#carFun{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: -50px;
+}
+.p1{
+    font-size: 8px;
+}
+.p2{
+    font-size: 9px;
+    margin-top: -5px;
+    font-weight: 500;
+}
+#carFun>div>i{
+    font-size: 19px;
+}
+#carFun>div>img{
+    width: 20px;
+    height: 17px;
+
+}
+
+
+#buysub{
+    margin-top: 60px;
+    font-weight: 900;
+    display: none;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    
+}
+#buyAndSub{
+    display: flex;
+    margin-top: 20px;
+    display: none;
+    height: 150px;
+}
+
+#firstBuySub{
+    margin-left: 10px;
+    margin-top: 6px;
+    line-height: 20px;
+    display: none;
+}
+#firstBuySub>p{
+    width: 150%;
+    border-top: 1px solid rgb(192, 190, 190);
+    display: none;
+    font-size: 12px;
+}
+#secondBuySub{
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: -30px;
+    text-align: center;
+    display: none;
+    line-height: 20px;
+    height: 120px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 12%;
+    
+    
+}
+#secondBuySub img{
+      width: 10px;
+      height: 15px;
+      display: none;
+      
+     
+}
+#secondBuySub>p{
+    font-size: 9px;
+    display: none;
+}
+#thirdBuySub{
+    margin-top: -30px;
+    text-align: center;
+    line-height: 20px;
+    display: none;
+    
+}
+#thirdBuySub img{
+    width: 10px;
+      height: 15px;
+      display: none;
+
+}
+#thirdBuySub>p{
+    font-size: 10px;
+    display: none;
+}
+#viewButton{
+       width: 70px;
+       height: 30px;
+       color: #1CABA2;
+       background:none;
+       font-size: 9px;
+       border: 1px solid rgb(199, 199, 199);
+       font-weight: 600;
+       margin-left: 20px;
+       display: none;
+}
+ 
+#insurance{
+    display: none;
+}
+
+#insiH1{
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
+#insurance2
+{
+    margin-left: 10px;
+    display: none;
+}
+#insurance2 p{
+    font-size: 14px;
+    display: none;
+}
+
+#maintain{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    display: none;
+
+}
+#maintain2{
+    margin-left: 10px;
+    display: none;
+}
+#maintain3{
+    margin-left: 10px;
+    display: none;
+}
+#pInso{
+    font-size: 15px;
+    display: none;
+}
+
+#pMain{
+    margin-top: 20px;
+    font-size: 15px;
+    display: none;
+}
+#normal{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    display: none;
+}
+#normal2{
+    margin-left: 20px;
+    display: none;
+}
+#normal3{
+    margin-left: 20px;
+    display: none;
+}
+
+#normalV{
+    display: flex;
+    margin-top: 20px;
+    display: none;
+    font-size: 15px;
+}
+#normalV3{
+    margin-left: 20px;
+    display: none;
+}
+
+#normalV2{
+    margin-left: 60px;
+    display: none;
+}
+.pT{
+    font-size: 12px;
+}
+
+
+#Pnor{
+    font-size: 10px;
+}
+
+#knowButton{
+    width: 100px;
+    height: 30px;
+    color: #1CABA2;
+    background:none;
+    border: 1px solid rgb(199, 199, 199);
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 900;
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#blueDiv{
+    height: 400px;
+}
+
+
+#video{
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    width:350px; 
+    height:150px;
+}
+
+#blueH{
+    margin-top: 20px;
+    margin-left: 105px;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+
+
+/* foter creation */
+#midFoter{
+    width: 100%;
+    margin-top:-25px;
+    display: none;
+}
+#sani{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#sani1
+{
+ margin-left: 110px
+ 
+}
+#sani1,#sani2,#sani3 p{
+    color: white;
+}
+
+#sani2{
+    margin-left: 20px;
+}
+#sani3{
+    margin-left: 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+

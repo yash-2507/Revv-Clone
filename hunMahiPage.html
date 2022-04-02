@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyundai and Mahindra sperate Page creation</title>
+    <link rel="stylesheet" href="./cssFiles/hunMahiPage.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+
+ <!-- Nav Creation -->
+ <div class="navbar">
+    <div class="logo">
+        <img id="logoImage1" src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" >
+        <p id="sanitisedL" >Sanitised.Safe</p>
+        <p class="break">|</p>
+        <b class="title">Mahindra</b>
+        <p class="title_1">Subscription</p>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="">FAQs</a></li>
+            <li><img id="img" src="https://www.revv.co.in/grapheneImages/newopen/ic-web-profile-login.svg"></li>
+            <li><a href="">Login or Signup</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    <!-- car and filter  blog creation for Hyundai and Mahindra Scription -->
+
+    <div id="BigDivContainer">
+           <div id="filter">
+                <p>
+                    <span><a href="">Home ></a></span>
+                    <span><a href="">Mahindra subscription ></a></span>
+                    <span id="un"><a href="">Unboxed Car</a></span>
+
+                </p>
+                <h2>Filter By</h2>
+                <br>
+               <h3>City</h3>
+               <select name="" id="selectCity">
+                   <option value="">Delhi-NCR</option>
+               </select>
+                
+               <p class="searchP">Search</p>
+               <input  onkeyup="searchFun()" id="search" type="text" placeholder="Search bY Car Model">
+               <br>
+               <p class="searchP">Price Range</p>
+               <Select id="startRange" onchange="byRange()">
+                   <option value="15000">₹ 15000</option>
+                   <option value="20000">₹ 20000</option>
+                   <option value="25000">₹ 25000</option>
+               </Select>
+               <select name="" id="endRange" onchange="byRange()">
+                <option value="20000">₹ 20000</option>
+                <option value="30000">₹ 30000</option>
+                <option value="40000">₹ 40000</option>
+               </select>
+
+               <!-- checkbox filter creation for car -->
+
+               <div id="xfilter">
+
+                <div id="segmentDiv">
+                     <h2 id="segTitle">Segment</h2>
+                     <div>
+                     <input type="checkbox" id="hatch" value="Hatchback" onchange="filHatch()">
+                     <h3>Hatchback</h3>
+                    </div>
+                     <div>
+                     <input type="checkbox" id="sedan" value="Sedan" onchange="filSedan()">
+                     <h3>Sedan</h3></div>
+                     <div>
+                     <input type="checkbox" id="suv" value="SUV" onchange="filSUV()">
+                     <h3>SUV/MUV</h3></div>
+                     
+            
+                  </div>
+          
+        
+                 <div id="segmentDiv">
+                  <h2 id="segTitle">Fuel Type</h2>
+                  <div>
+                  <input type="checkbox" onchange="filFun('Diesel')">
+                  <h3>Diesel</h3>
+                 </div>
+                  <div>
+                  <input type="checkbox" onchange="filFun('Petro')">
+                  <h3>Petrol</h3>
+                  </div>
+                  
+          
+               </div>
+          
+               <div id="segmentDiv">
+                <h2 id="segTitle">Transmission Type</h2>
+                <div>
+                <input type="checkbox" onchange="filFun('Automatic')">
+                <h3>Automatic</h3>
+               </div>
+                <div>
+                <input type="checkbox" onchange="filFun('Manual')">
+                <h3>Manual</h3>
+                </div>
+                
+          
+             </div>
+          
+    
+          
+    </div>
+          
+
+</div>
+           
+ <!-- car div creation -->
+           <div id="carContainer">
+               
+                <div id="Nav">
+                        <div id="swapFilter">
+                              <div onclick="newcar()" id="newCar">
+                                    <h3 id="NH3"> <b> Brand new car</b></h3>
+                                    <p>Ordered especially for you</p>
+                              </div>
+                              <div onclick="unBox()" id="unBoxedCar">
+                                <h3 id="UH3"><b>Unboxed car</b></h3>
+                                <p>as good as new</p>
+                              </div>
+                              
+                        </div>
+                        <div id="sortBy">
+                            <p>SortBy:</p>
+                            <select onchange="sortFun()" id="sorting">
+                                <option value=""></option>
+                                <option value="l2h">Price: Low to High</option>
+                                <option value="h2l">Price: High to Low</option>
+                            </select>
+                            
+                        </div>
+                </div>
+
+                <div id="result">
+                    <h1 id="resultTag">3 Unboxed Mahindra cars for subscription in Ahmedabad</h1>
+                </div>
+                 <div id="Cars">
+        
+
+                    <div>
+                        <img id="adsImage" src="https://revvselfdrivecar.s3-us-west-2.amazonaws.com/Open/prop-cards/destkop/safe.svg" alt="">
+                    </div>
+
+
+                 </div>
+           </div>
+
+    </div>
+
+
+<!-- foter creation     -->
+<div id="midFoter">
+    <div id="midDivFot">
+            <div id="thirdDiv">
+                    <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" id="revLogo" alt="">
+                    <p id="logoTitle">Sanitised. Safe</p>
+                     <br>
+                     <br>
+                    <p id="tagP">2022 Primemover Mobility Technologies Pvt Ltd.
+
+                        All rights reserved</p>
+                     
+            </div>
+            <div>
+              <ul id="secondDiv">
+                <li><a href="">Home</a></li>
+                <li><a href="">Subscriptions</a></li>
+                <li><a href="">Traffis</a></li>
+                <li><a href="">FAQ</a></li> 
+                <li><a href="">Policy</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+            </div>
+            <div id="firstDiv">
+                <p id="socialPtag">Social</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/revvindia"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/revv_india?lang=en"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/revv_india/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCdASUGQcRPefuQYO6rT331Q"><i class="fab fa-youtube"></i></a></li> 
+                    <li><a href="https://www.linkedin.com/company/revv-self-drive-car/?originalSubdomain=in"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+
+
+                <h4>Download the Revv App</h4>
+                <div id="oneFot">
+                      <img src="https://www.revv.co.in/grapheneImages/newopen/apple-icon.svg" alt="">
+                      <h5><a href="">Download <span id="appTag"> App Store</span></a></h5>
+                </div>
+                <div id="oneFot">
+                    <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/rental2021/logo/playstore_google.webp" alt="">
+                    <h5><a href="">Download <span id="appTag"> Google Play</span></a></h5>
+              </div>
+  
+            </div>
+  
+            
+    </div>
+  </div>
+  
+  
+
+
+
+    
+</body>
+<script src="./Data/unBoxedCar.js"></script>
+<script src="./jsFiles/hunMahiPage.js"></script>
+</html>
+
+
+
+
+

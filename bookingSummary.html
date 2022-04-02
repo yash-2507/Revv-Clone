@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="cssFiles/bookingSummary.css">
+  <link rel="stylesheet" href="./cssFiles/cars.css">
+  <link rel="stylesheet" href="./cssFiles/index.css" />
+</head>
+
+<body>
+  <div id="headerContainer">
+    <div id="navbar">
+      <div id="left">
+        <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" alt="" />
+      </div>
+      <div id="right">
+        <a class="subscription" href="hyundai.html">
+          <img src="https://www.revv.co.in/imgs/hyundai_logo_hover.svg" alt="" />
+        </a>
+        <a class="subscription" href="mahindra.html">
+          <img class="mahindra" src="https://www.revv.co.in/imgs/mahindra_logo_hover.svg" alt="" />
+        </a>
+        <div class="faqs">FAQs</div>
+        <div class="loginOrSignup">
+          <div class="icon">
+            <i class="fas fa-sign-out"></i>
+          </div>
+          <div>Login or Signup</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="height: 100px;"></div>
+  <!-- navbar top -->
+  <div id="topDiv">
+    <div id="topLeft">
+
+      <div>
+        <div id="view">
+          <div style="height:30px">
+            <b>
+              <span id="brand">Maruti Swift Dezire</span>
+            </b>
+          </div>
+          <img src="https://s3-us-west-2.amazonaws.com/revvselfdrivecar/carImages/white_images/dzire.png" alt="">
+          <div style="height:30px;">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+        </div>
+        <div id="booking">
+          <h3><span>BOOKING DETAILS</span></h3>
+          <div id="bookingDetails" style="display: flex;">
+            <div><span></span></div>
+            <div><i style="font-size: 30px;height: 100%; line-height: 30px;" class="fa-solid fa-right-to-bracket"></i>
+            </div>
+            <div><span></span></div>
+          </div>
+          <div id="timeDuration">
+
+          </div>
+
+
+          <div id="ctDetails">
+            <span style="margin-right:8px;"><b>cityName</b></span>
+            <a href="index.html">Cahnge City</a>
+          </div>
+          <div id="changePlan">
+            <span>
+              <b>Pricing Plan: Includes Unlimited kms, excludes fuel</b>
+            </span>
+            <a href="">Change Plan</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div>
+        <h3><span>IMPORTANT POINTS TO REMEMBER</span></h3>
+
+        <table>
+          <tr>
+            <td>CHANGE IN PRICING PLAN:</td>
+            <td>Your pricing plan will change to 20 kms/hr if your modified booking duration is below 24 hours</td>
+          </tr>
+
+          <tr>
+            <td>FUEL:</td>
+            <td>In case you are returning the car at a lower fuel level than what was received, we will charge a flat Rs
+              500 refuelling service charge + actual fuel cost to get the tank to the same level as what was received
+            </td>
+          </tr>
+
+          <tr>
+            <td>TOLLS, PARKING, INTER-STATE TAXES</td>
+            <td>To be paid by you</td>
+          </tr>
+
+          <tr>
+            <td>ID VERIFICATION</td>
+            <td>Please keep your original Driving License handy. While delivering the car to you, our executive will
+              verify your original Driving License and ID proof (same as the ones whose details were provided while
+              making the booking). This verification is mandatory. In the unfortunate case where you cannot show these
+              documents, we will not be able to handover the car to you, and it will be treated as a late cancellation
+              (100% of the fare would be payable). Driving license printed on A4 sheet of paper (original or otherwise)
+              will not be considered as a valid document</td>
+          </tr>
+
+          <tr>
+            <td>PRE-HANDOVER INSPECTION:</td>
+            <td>Please inspect the car (including the fuel gauge and odometer) thoroughly before approving the checklist
+            </td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+
+
+    <div id="topRight">
+      <h3>
+        <span>
+          FARE DETAILS
+        </span>
+      </h3>
+      <table id="bill">
+        <tr>
+          <td>Base fare</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Doorstep delivery & pickup</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Insurance & GST</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td">Refundable security deposit</td>
+            <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <!-- <tr>
+            <td></td>
+            <td></td>
+          </tr> -->
+
+        <tr>
+          <td>
+            <label for="promoSpace" style="">promo</label>
+            <input id="promoSpace" type="text">
+          </td>
+          <td><button id="apply">Apply</button></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <hr>
+        <!-- <tr>
+            <td><hr></td>
+            <td><hr></td>
+          </tr> -->
+
+        <tr>
+          <td>Total</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>
+            <hr>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Kms limit</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Fuel</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Extra kms charge</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Tolls, Parking & Inter-state taxes</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </table>
+      <div>
+
+      </div>
+    </div>
+  </div>
+  <script src="jsFiles/bookingSummary.js"></script>
+
+  <div>
+    <div id="firstFoter">
+      <h4>Serviceable Cities</h4>
+      <div id="cityService">
+        <div>
+          <p><a href="">Car Rental in Bangalore</a></p>
+          <p><a href="">Car Rental in Hyderabad</a></p>
+          <p><a href="">Car Rental in Mumbai</a></p>
+          <p><a href="">Car Rental in Delhi-NCR</a></p>
+          <p><a href="">Car Rental in Chennai</a></p>
+          <p><a href="">Car Rental in Pune</a></p>
+          <p><a href="">Car Rental in Kolkata</a></p>
+          <p><a href="">Car Rental in Ahmedabad</a></p>
+        </div>
+        <div>
+          <p><a href="">Car Rental in Bhubaneswar</a></p>
+          <p><a href="">Car Rental in Chandigarh</a></p>
+          <p><a href="">Car Rental in Coimbatore</a></p>
+          <p><a href="">Car Rental in Jaipur</a></p>
+          <p><a href="">Car Rental in Kochi</a></p>
+          <p><a href="">Car Rental in Mangalore</a></p>
+          <p><a href="">Car Rental in Mysore</a></p>
+          <p><a href="">Car Rental in Nagpur</a></p>
+        </div>
+        <div>
+          <p><a href="">Car Rental in Surat</a></p>
+          <p><a href="">Car Rental in Tirupati</a></p>
+          <p><a href="">Car Rental in Trivandrum</a></p>
+          <p><a href="">Car Rental in Vadodara</a></p>
+          <p><a href="">Car Rental in Vijayawada</a></p>
+          <p><a href="">Car Rental in Vizag</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div>
+    <div id="midFoter">
+      <div id="midDivFot">
+        <div id="firstDiv">
+          <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" id="revLogo" alt="">
+          <br>
+          <br>
+          <ul>
+            <li><a href="https://www.facebook.com/revvindia"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/revv_india?lang=en"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/revv_india/?hl=en"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCdASUGQcRPefuQYO6rT331Q"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/company/revv-self-drive-car/?originalSubdomain=in"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="secondDiv">
+            <li><a href="">Home</a></li>
+            <li><a href="">Subscriptions</a></li>
+            <li><a href="">Traffis</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Policy</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div id="thirdDiv">
+          <h3 id="h3">Have Questions?</h3>
+          <h4 id="h4">24/7 Customer Support</h4>
+          <br>
+          <h2 id="contact">Contact us</h2>
+          <h2 id="h2">+91-8700459092</h2>
+          <h2 id="h2">care@revv.co.in</h2>
+
+        </div>
+
+
+      </div>
+      <p id="pLine">© 2022 Primemover Mobility Technologies Pvt Ltd. All rights reserved</p>
+    </div>
+  </div>
+  <div id="lastTextFoter">
+    <h2 class="lastH2"> <b>Car Rental in Delhi-NCR starting from INR 41 per Hour</b></h2>
+    <p>The world is getting smaller by the day, and yet every time you step out of your
+      home you need a car to take you from one place to another. While owning a car is
+      definitely no longer just a dream for the vast majority of people, there are even
+      more affordable and smarter choices available such as car rental services. With
+      unmatched ease and comfort of car rental or car hire services, this gives you a
+      fully maintained vehicle whenever you need but without the hassles of maintaining
+      it. Through its car rental services, Revv helps the residents of Delhi-NCR for travelling around and even visit
+      nearby tourist places using its huge fleet of different models of cars</p>
+    <br>
+    <h2 class="lastH2"> <b>Best Car Rental in Delhi-NCR by Revv </b></h2>
+    <p>Revv is one of the most premier providers of Car rental services in Delhi-NCR that has the popular car brands
+      such as Honda, Ford, Mahindra, Maruti, Hyundai, Volkswagen, and Toyota. You get the freedom to choose even a
+      different make and model of car for each occasion with packages available on hourly, daily, weekly, monthly and
+      yearly modes. You can also choose between MUV, SUV, Sedan, Hatchback type of cars based on your comfort and the
+      number of people travelling. With no limit on maximum distance you get the ultimate driving experience with no
+      worries of maintenance or extra charges.</p>
+    <br>
+    <h2 class="lastH2"> <b> Choice of best Cars for Hire in Delhi-NCR by Revv </b></h2>
+    <p>The most popular option for renting a car in Delhi-NCR is through Revv, as you can choose from a variety of
+      options and even have the freedom to experiment and choose a car that you feel best fits your needs. If you have a
+      bigger family or simply want to take an adventurous drive, you can choose an SUV such as Toyota Innova, Ford
+      EcoSport, Maruti Brezza, Hyundai Creta or Mahindra XUV. For city driving on compact Delhi-NCR roads, you can
+      choose a hatchback such as Hyundai Grand i10, Hyundai Elite i20, Maruti Swift or the newer Baleno or if you need
+      some additional trunk space choose a Sedan. In the Sedan class the popular choices in Delhi-NCR are Honda City,
+      Maruti Swift Dzire, Hyundai Xcent, and Volkswagen Vento. You can look into the options with Automatic or Manual
+      Transmission for ease of driving and find the joy of driving at your own pace with no liabilities.</p>
+  </div>
+
+  <script src="jsFiles/index.js"></script>
+</body>
+
+</html>

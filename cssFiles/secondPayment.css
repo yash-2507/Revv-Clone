@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* Nav Creation */
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+#logoImage1{
+    height:50px;
+     margin-left: 100px; 
+     position: relative;
+     
+}
+
+
+#sanitisedL{
+    margin-top:40px; 
+    margin-left: 130px; 
+    font-size: 11px; 
+    font-family: 'Poppins';
+     position: absolute;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+.break {
+    float: left;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: rgb(174,174,174);
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 18px;
+}
+
+.title_1 {
+    color: rgb(174,174,174);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 18px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+.menu>ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu>ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 64, 67);
+}
+
+.menu>ul li a:hover {
+    color: teal;
+}
+
+.menu>ul li img {
+    margin-right: 5px;
+}
+
+
+
+ /* NAV_BAR DONE */
+
+ .main {
+     height: 120vh;
+     width: 90%;
+     margin-top: 60px;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     gap: 30px;
+ }
+ .carInfo {
+     height: 100%;
+     flex: 2;
+     display: flex;
+     flex-direction: column;
+     margin-top: 60px;
+     gap: 20px;
+     padding: 10px 40px 10px 0px;
+ }
+ .carDisplay {
+     height: 50%;
+     flex: 1.5;
+     margin-top: 10px;
+     margin-top: 77px;
+ }
+ .btn{
+     margin-top: 30px;
+ }
+ #insurance{
+     border-bottom: 1px solid rgb(199, 196, 196);
+ }
+ .summary {
+     width: 100%;
+     flex: 1.5;
+     box-shadow: 0 0 2px 2px rgb(204, 203, 203);
+ }
+ .FAQs {
+     width: 100%;
+     flex: 0.8;
+     box-shadow: 0 0 2px 2px rgb(197, 196, 196);
+     padding: 30px 60px 20px 30px;
+ }
+ .FAQs div {
+     margin-bottom: 15px;
+ }
+ hr {
+     margin-bottom: 20px;
+     margin-left: 34px;
+ }
+.faq {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.faq_div img {
+    height: 14px;
+    width: 14px;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+.faq_div p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.summary {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.summary div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.summary>div>div {
+    display: flex;
+}
+
+button {
+    border: 1px #f4f4f4 solid;
+    box-shadow: 0 0 2px 2px rgb(204, 203, 203);
+}
+
+/* Car Display Part */
+#fuel{
+    margin-right: 15px;
+    font-size: 13px;
+    display: flex;
+    margin-left: 20px;
+}
+#logo1,#logo2{
+    margin-right: 5px;
+    width: 12px;
+    height: 14px;
+}
+
+#function{
+    font-size: 13px;
+    display: flex;
+}
+#typeDiv{
+    display: flex;
+    margin-top: 10px;
+}
+#CName{
+    font-size: 24px;
+    font-weight: 900;
+}
+#unbox{
+    border-radius: 2px;
+    background-color: rgb(31, 186, 181);
+    color: rgb(255, 255, 255);
+    width: 62px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 5px;
+
+}
+#logo3{
+    margin-top: 10px;
+    margin-left: 16px;
+}
+#city{
+    display: inline-block;
+    margin-top: 10px;
+}
+#CarImage{
+    height: 250px;
+    width: 450px;
+    margin: auto;
+
+}
+#OriCarImage
+{
+    width: 100%;
+    height: 100%;
+}
+#underLine{
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+}

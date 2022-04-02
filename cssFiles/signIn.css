@@ -1,0 +1,284 @@
+
+@media screen and (max-width: 767px){
+    .bodyStyleLogin {
+        min-height: 91vh!important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .bodyStyleLogin {
+        min-height: 91vh!important;
+    }
+}
+
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+style attribute {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    position: relative;
+    width: 320px;
+    max-width: none;
+    margin: 0px auto;
+    z-index: 1500;
+    transform: translate(0px, 75px);
+    opacity: 1;
+}
+style attribute {
+    position: fixed;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    z-index: 1500;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    transition: left 0ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    padding-top: 0px;
+} */
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body > div > form > div.login-title > img{
+    
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    opacity: 1;
+    width: 9%;
+    display: table-caption;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}
+body > div{
+    padding-top: 100px;
+    width: 400px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    min-height: 91vh!important;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 24px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-top: none;
+    border-bottom: none;
+    max-height: 700px;
+}
+body > div > form{
+    
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
+body > div > form > div.login-title{
+    
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+body > div > form > div.login-title > b{
+    
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+body > div > form > div:nth-child(2){
+    
+    font-weight: 400;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    height: 72px;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    cursor: auto;
+}
+body > div > form > div:nth-child(2) > label{
+    
+    font-weight: 400;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    display: inline-block;
+    margin-bottom: .5rem;
+    position: absolute;
+    line-height: 22px;
+    top: 38px;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    z-index: 1;
+    transform: scale(1) translate(0px, 0px);
+    transform-origin: left top;
+    pointer-events: none;
+    user-select: none;
+    color: rgba(0, 0, 0, 0.3);
+}
+#user-email{
+    
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    overflow: visible;
+    touch-action: manipulation;
+    appearance: textfield;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.87);
+    cursor: inherit;
+    font: inherit;
+    opacity: 1;
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 14px;
+}
+body > div > form > div:nth-child(2) > div:nth-child(3) > hr:nth-child(1),body > div > form > div:nth-child(3) > div > hr:nth-child(1){
+    
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    cursor: auto;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+    margin: auto;
+}
+body > div > form > div.text-center > button{
+    display: block;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    text-transform: none;
+    outline: none!important;
+    -webkit-appearance: button;
+    border-radius: 4px;
+    background-color: #0ebaba;
+    color: #fff;
+    box-shadow: none!important;
+    min-width: 94px;
+    min-height: 36px;
+    border: none;
+    height: 35px;
+    width: 120px;
+}
+body > div > div > a{
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    touch-action: manipulation;
+    color: #0ebaba!important;
+    padding-left: 5%;
+    font-size: 15px;
+    text-decoration: none;
+}
+div>input{
+    display: inline;
+    margin: 0;
+    overflow: visible;
+    touch-action: manipulation;
+    appearance: textfield;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.87);
+    cursor: inherit;
+    font: inherit;
+    opacity: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    height: 100;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+body > div > form > div:nth-child(3) > label{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    display: inline-block;
+    margin-bottom: .5rem;
+    position: absolute;
+    line-height: 22px;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    z-index: 1;
+    transform: scale(1) translate(0px, 0px);
+    transform-origin: left top;
+    pointer-events: none;
+    user-select: none;
+    color: rgba(0, 0, 0, 0.3);
+}

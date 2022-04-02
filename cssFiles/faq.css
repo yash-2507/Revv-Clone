@@ -1,0 +1,151 @@
+#headerContainer{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 -1px 8px 0 rgb(0 0 0 / 15%);
+    z-index: 100000;
+}
+
+#navbar{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#left{
+    margin-left: 100px;
+}
+
+#right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+    color: #212529;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faqs{
+    padding: 10px 0;
+    margin: 6px 20px 0;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+}
+.loginOrSignup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 0 0 20px;
+    padding: 10px 0;
+}
+.icon+div{
+    margin-left: 10px;
+}
+
+.fas{
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+/* mid container style 7tart */
+#midContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    position: relative;
+} 
+
+#leftBox{
+    width: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 60px;
+    left: 10px;
+}
+
+#leftBox>div{
+    background-color: #F1F1F1;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+#leftBox>div>a{
+    text-decoration: none;
+    color: black;
+}
+#rightBox{
+    width: 70%;
+    right: 25px;
+}
+
+.header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #5A5959;
+}
+
+.expandAll{
+    color: #0EBABA;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.queBox{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+
+}
+.question{
+    background-color: #F1F1F1;
+    padding: 20px;
+    font-size: 13px;
+    color: #000000DE;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+
+}
+
+.solution{
+    display: none;
+    border: 1px solid #D3D3D3;
+    background-color: #F1F1F1;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    color: #7f868e;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.queBox{
+    margin-bottom: 30px;
+}
+
+.active{
+    display: block;
+}

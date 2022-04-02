@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+#BigDivContainer
+{
+    width: 85%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 70px;
+
+
+}
+
+
+/* Nav Creation */
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+#logoImage1{
+    height:50px;
+     margin-left: 100px; 
+     position: relative;
+     
+}
+
+
+#sanitisedL{
+    margin-top:40px; 
+    margin-left: 130px; 
+    font-size: 11px; 
+    font-family: 'Poppins';
+     position: absolute;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+.break {
+    float: left;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: rgb(174,174,174);
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 18px;
+}
+
+.title_1 {
+    color: rgb(174,174,174);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 18px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+.menu>ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu>ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 64, 67);
+}
+
+.menu>ul li a:hover {
+    color: teal;
+}
+
+.menu>ul li img {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Side Filter Creation */
+
+#filter
+{
+  width: 25%;
+  height: 630px;
+}
+#filter a{
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+#un a{
+    color: #1CABA2;
+    font-weight: bold;
+}
+#filter>h2{
+    font-size: 16px;
+    color: #868686;
+    margin-top: 10px;
+
+}
+#filter>h3{
+    font-size: 14px;
+
+}
+#selectCity
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid rgb(116, 114, 114);
+}
+.searchP{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#search{
+    width: 98%;
+    height: 40px;
+    font-size: 14px;
+}
+#startRange{
+    width: 45%;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid rgb(131, 130, 130); 
+}
+#endRange
+{
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid rgb(131, 130, 130); 
+}
+
+#xfilter{
+    width: 323px;
+    height:700px;
+    margin-right: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+#segmentDiv{
+    width: 250px;
+    height: auto;
+}
+#segmentDiv>div{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    line-height: 1px;
+    color: #656565;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#segmentDiv>div>h3
+{
+    font-size: 13px;
+}
+#segmentDiv>div>input{
+      width: 40px;
+      height:19px;
+     
+}
+#segmentDiv>div:nth-child(2)
+{
+    
+}
+#segmentDiv>div:nth-child(3)
+{
+    margin-top: 5px;
+}
+#segmentDiv>div:nth-child(4)
+{
+    margin-top: 5px;
+}
+#segmentDiv>div:nth-child(5)
+{
+    margin-top: 5px;
+}
+#segmentDiv>div:nth-child(6)
+{
+    margin-top: 5px;
+}
+
+#segTitle{
+    
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: -10px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000000de;
+    font-family: 'poppins';
+    font-weight: bold;
+    
+}
+
+
+
+
+
+#carContainer
+{
+   width: 70%;
+   height: 100%;
+}
+/* Nav creation */
+#Nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Nav>div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#Nav>div:first-child{
+     width: 55%;
+     height: 90%;
+}
+#Nav>div:last-child{
+   width: 20%;
+   height: 90%;
+}
+
+#swapFilter>div{
+   width: 45%;
+   height: 90%; 
+   font-family:'poppins'; 
+}
+#newCar{
+   margin-right: 10px;
+}
+#newCar>h3{
+   margin-top: 10px;
+   color: black;
+   font-size: 16px;
+}
+#newCar>p{
+   font-size: 12px;
+   color: #808080;
+}
+#unBoxedCar{
+    border-bottom:  4px solid #1CABA2 ;
+}
+#unBoxedCar>h3{
+    margin-top: 10px;
+    color: #1CABA2;
+    font-size: 16px;
+}
+#unBoxedCar>p{
+   font-size: 12px;
+   color: #808080;
+}
+#sortBy>p{
+   font-family:'poppins';
+   font-size: 14px;
+}
+#sorting{
+   width: 30px;
+   border: none;
+}
+
+/* middle result creation */
+
+#result{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#resultTag{
+    font-size: 20px;
+    color: #7F8091;
+    font-size: 17px;
+}
+
+/* Car div creation */
+
+
+#Cars{
+    width: 100%;
+    height: auto;
+}
+
+#Cars>div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#Cars>div:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 105px;
+}
+#Cars>div:first-child{
+    margin-top: 3px;
+}
+#carImage{
+    width: 170px;
+    height: 85px;
+}
+#Cars>div h1{
+    font-size: 17px;
+}
+#Cars>div h2{
+    font-size: 23px;
+    font-weight: 700px;
+}
+#fuel{
+    margin-right: 15px;
+    font-size: 13px;
+}
+#function{
+    font-size: 13px;
+}
+#typeDiv{
+    display: flex;
+    margin-top: 12px;
+}
+#carInfo{
+    margin-top: 6px;
+}
+.logo{
+    margin-right: 3px;
+    width: 11px;
+    height: 13px;
+    margin-top: 3px;
+}
+.carType{
+    font-size: 13px;
+}
+
+/* foter creation */
+#midFoter{
+    width: 100%;
+    margin-top: 5px;
+    height: 350px;
+}
+#midDivFot
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ece8e8;
+
+    
+}
+#midDivFot>div:nth-child(1){
+    width: 30%;
+    height: 80%;
+    text-align: left;
+}
+#midDivFot>div:nth-child(2){
+    width: 20%;
+    height: 80%;
+}
+#midDivFot>div:nth-child(3){
+    width: 30%;
+    height: 80%;
+}
+
+#firstDiv li{
+    list-style: none;
+    
+}
+#firstDiv ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+#firstDiv ul a{
+    margin-right: 5px;
+    
+}
+#firstDiv i{
+    font-size:20px;
+    width: 30px;
+    text-align: center;
+    height: 27px;
+    padding-right: 2px;
+    padding-top: 8px;
+    border-radius: 50px;
+    background-color:#0EBABA;
+    color: #ffff;
+} 
+#firstDiv i:hover{
+    background-color:white;
+    color: #0EBABA;
+}
+#firstDiv>img{
+    width: 105px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#secondDiv li{
+    list-style: none;
+
+}
+#secondDiv>li:first-child{
+    margin-top: 20px;
+}
+#secondDiv a{
+    text-decoration: none;
+    color: #5D5E6F;
+    font-family: 'poppins';
+    font-size: 17px;
+    
+}
+#secondDiv a:hover{
+    color: black;
+    font-weight: bold;
+}
+#secondDiv li{
+    text-align: justify;
+    margin-left: 80px;
+}
+#thirdDiv{
+    margin-top: 15px;
+}
+#tagP{
+    color: #5D5E6F;
+    margin-top: -25px;
+}#logoTitle{
+    font-size: 12px;
+    color: black;
+    padding-left: 30px;
+    margin-top: -20px;
+}
+#socialPtag{
+      font-size: 17px;
+    margin-left: 50px;
+    color: #5D5E6F;
+}
+#oneFot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 49px;
+    margin-top: 7px;
+    margin-left: 50px;
+    background-color: #ffff;
+}
+#oneFot a{
+    text-decoration: none;
+    color: #5D5E6F;
+}
+/* #oneFot a:hover{
+    color: #0EBABA;
+    font-weight: bold;
+} */
+#firstDiv h4{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #5D5E6F;
+
+}
+#oneFot img{
+    width: 18px;
+    height: 19px;
+}
+#oneFot h5{
+    margin-left: 10px;
+}
+#appTag{
+    color: black;
+    font-weight: bold;
+}
+#appTag:hover{
+    color: #0EBABA;
+    font-weight: bold;
+}
+

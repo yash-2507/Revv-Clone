@@ -1,0 +1,402 @@
+
+<!-- CARS-STORE PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cssFiles/cars.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+  
+
+
+
+  <!-- <div id="notNull"><h1><p><strong></strong></p></h1></div> -->
+  
+  <!-- navbar creation -->
+<div id="topNav">
+
+  <!-- <button id="menu" onclick="menuBtn()"><i class="fas fa-bars"></i></button> -->
+  <div id="leftTop">
+    <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" alt="">
+    <p>Sanitised. Safe</p>
+  </div>
+  <div id="rightTop">
+    <div>
+
+       <div id="hyundaiImage">
+      <a href="./hyundai.html" id="nav-link"><img src="https://www.revv.co.in/imgs/hyundai_logo_hover.svg" alt=""></a>
+      </div>
+
+    </div>
+    <div>
+
+    <div id="mahindraImage">
+      <a href="./mahindra.html" id="nav-link"><img src="https://www.revv.co.in/imgs/mahindra_logo_hover.svg" alt=""></a>
+    </div>
+
+    </div> 
+
+    <div id="FAQ"> <a href="faq.html" id="FAQs">FAQs</a></div>
+    <div id="logSign">
+       <img src="https://www.revv.co.in/grapheneImages/newopen/ic-web-profile-login.svg" alt="">
+       <a href="./signIn.html" id="logIn"><p>Login or Signup</p></a>
+    </div>
+  </div>
+
+</div>
+
+<!-- downNavbar Creation -->
+
+<div id="navbar">
+  <div id="downNav">
+    <div id="city">
+            <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/locationRental.svg" alt="">
+            <input id="selectCity" type="button" value="Delhi-NCR">
+    </div>
+    <div id="timeMainDiv">
+          <p id="startTime">Start time</p>
+          <div id="timeSt">
+            <h2>1 March'22</h2>
+            <p>10:00 True</p>
+          </div>
+    </div>
+    <div id="timeMainDiv">
+       
+      <p id="endTime">End Time</p>
+          <div class="endDate001" id="timeSt">
+            <h2>1 March'22</h2>
+            <p>10:00 True</p>
+          </div>
+
+    </div>
+    <div><b>Modify Search</b></div>
+</div>
+</div>
+
+
+<!-- Filter Window Creation -->
+<nav>
+   <div id="process">
+     <p>Car Rental > </p>
+     <p>Rent a Car > </p>
+     <p>Car Rental in Delhi-ncr > </p>
+     <p>Cars for rent in Delhi-ncr</p>
+   </div>
+<div id="filterNav">
+     <div id="filterBlog">Filters</div>
+     <div id="reset">
+           <div onclick="resetFun()"><a href="">RESET ALL</a></div>
+           <div>Car Rental in <span id="selectedCity">Delhi-NCR</span></div>
+     </div>
+     <div id="fuelCost">
+          <input type="checkbox" onchange="changeText()">
+          <p>Prices <span id="fuel"><u>exclude</u></span> fuel cost</p>
+          <img src="https://www.revv.co.in/grapheneImages/CarsAndPricing/info-icon.svg" alt="">
+     </div>
+     <div id="sort">
+         <p>Sort by:</p>
+         <select name="" onchange="sortFun()" id="sorting">
+           <option value="popularity">Popularity</option>
+           <option value="l2h">Price Low to High</option>
+           <option value="h2l">Price High to Low</option>
+           <option value="exKmChrgh2l">Extra Km Charges Low to High</option>
+           <option value="exKmChrgl2h">Extra Km Charges High to Low</option>
+         </select>
+     </div>
+
+</div>
+</nav>
+
+
+
+
+<!-- Product Section Creation -->
+
+  <div id="mainSection">
+    
+    <div id="filter">
+
+      <div id="segmentDiv">
+           <h2 id="segTitle">Segment</h2>
+           <div>
+           <input type="checkbox" id="hatch" value="Hatchback" onchange="filHatch()">
+           <h3>Hatchback</h3>
+          </div>
+           <div>
+           <input type="checkbox" id="sedan" value="Sedan" onchange="filSedan()">
+           <h3>Sedan</h3></div>
+           <div>
+           <input type="checkbox" id="suv" value="SUV" onchange="filSUV()">
+           <h3>SUV</h3></div>
+           <div>
+           <input type="checkbox" id="muv" value="MUV" onchange="filMUV()">
+           <h3>MUV</h3>
+          </div>
+  
+        </div>
+
+        <div id="segmentDiv">
+          <h2 id="segTitle">Brand</h2>
+          <div>
+          <input type="checkbox" id="hun" value="Hyundai" onchange="filHun()">
+          <h3>Hyundai</h3>
+         </div>
+          <div>
+          <input type="checkbox" id="maru" value="Maruti" onchange="filMaru()">
+          <h3>Maruti</h3></div>
+          <div>
+          <input type="checkbox" id="mahi" value="Mahindra" onchange="filMahi()">
+          <h3>Mahindra</h3></div>
+          <div>
+          <input type="checkbox" id="tata" value="Tata" onchange="filTata()">
+          <h3>Tata</h3>
+         </div>
+         <div>
+          <input type="checkbox" id="hon" value="Honda" onchange="filHonda()">
+          <h3>Honda</h3>
+         </div>
+         <div>
+          <input type="checkbox" id="toy" value="Toyota" onchange="filToyo()">
+          <h3>Toyota</h3>
+         </div>
+ 
+       </div>
+
+       <div id="segmentDiv">
+        <h2 id="segTitle">Fuel Type</h2>
+        <div>
+        <input type="checkbox" onchange="filFun('Diesel')">
+        <h3>Diesel</h3>
+       </div>
+        <div>
+        <input type="checkbox" onchange="filFun('Petrol')">
+        <h3>Petrol</h3>
+        </div>
+        
+
+     </div>
+
+     <div id="segmentDiv">
+      <h2 id="segTitle">Transmission Type</h2>
+      <div>
+      <input type="checkbox" onchange="filFun('Automatic')">
+      <h3>Automatic</h3>
+     </div>
+      <div>
+      <input type="checkbox" onchange="filFun('Manual')">
+      <h3>Manual</h3>
+      </div>
+      
+
+   </div>
+
+   <div id="segmentDiv">
+    <h2 id="segTitle">Seating Capacity</h2>
+    <div>
+    <input type="checkbox" onchange="filFun(5)">
+    <h3>5 Seats</h3>
+   </div>
+    <div>
+    <input type="checkbox" onchange="filFun(7)">
+    <h3>7 Seats</h3>
+    </div>
+    
+
+ </div>
+
+    </div>
+
+    <div id="container">
+     
+  
+       
+    </div>
+
+  </div>
+  
+  <!-- search car by car creation  -->
+
+  <div id="carTextContainer">
+      
+  <div id="carShotCut">
+        <div id="textOne">
+         <h2>Rent car by Make</h2>
+         <span><a href="index.html" class="carByText">Hyundai |</a></span>
+         <span><a href="index.html" class="carByText">Maruti |</a></span>
+         <span><a href="index.html" class="carByText">Mahindra |</a></span>
+         <span><a href="index.html" class="carByText">Tata |</a></span>
+         <span><a href="index.html" class="carByText">Toyota |</a></span>
+         <span><a href="index.html" class="carByText">Honda |</a></span>
+        </div>
+       
+        <div id="textTwo">
+          <h2>Rent car by Make</h2>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+
+        </div>
+        
+        <div id="textThree">
+          <h2>Rent car by Body Type</h2>
+          <span><a href="index.html" class="carByText">Hyundai |</a></span>
+          <span><a href="index.html" class="carByText">Maruti |</a></span>
+          <span><a href="index.html" class="carByText">Mahindra |</a></span>
+          <span><a href="index.html" class="carByText">Tata |</a></span>
+          <span><a href="index.html" class="carByText">Toyota |</a></span>
+          <span><a href="index.html" class="carByText">Honda |</a></span>
+         </div>
+
+  </div>
+  </div>
+
+  <!-- First Footer creation  -->
+
+  <div id="firstFoter">
+    <h4>Serviceable Cities</h4> 
+    <div id="cityService">
+      <div>
+          <p><a href="">Car Rental in Bangalore</a></p>
+          <p><a href="">Car Rental in Hyderabad</a></p>
+          <p><a href="">Car Rental in Mumbai</a></p>
+          <p><a href="">Car Rental in Delhi-NCR</a></p>
+          <p><a href="">Car Rental in Chennai</a></p>
+          <p><a href="">Car Rental in Pune</a></p>
+          <p><a href="">Car Rental in Kolkata</a></p>
+          <p><a href="">Car Rental in Ahmedabad</a></p>
+      </div>
+      <div>
+        <p><a href="">Car Rental in Bhubaneswar</a></p>
+        <p><a href="">Car Rental in Chandigarh</a></p>
+        <p><a href="">Car Rental in Coimbatore</a></p>
+        <p><a href="">Car Rental in Jaipur</a></p>
+        <p><a href="">Car Rental in Kochi</a></p>
+        <p><a href="">Car Rental in Mangalore</a></p>
+        <p><a href="">Car Rental in Mysore</a></p>
+        <p><a href="">Car Rental in Nagpur</a></p>
+      </div>
+      <div>
+        <p><a href="">Car Rental in Surat</a></p>
+        <p><a href="">Car Rental in Tirupati</a></p>
+        <p><a href="">Car Rental in Trivandrum</a></p>
+        <p><a href="">Car Rental in Vadodara</a></p>
+        <p><a href="">Car Rental in Vijayawada</a></p>
+        <p><a href="">Car Rental in Vizag</a></p>
+      </div>
+    </div> 
+
+  </div>
+
+<!-- Midddle foter creation  -->  
+<div id="midFoter">
+  <div id="midDivFot">
+          <div id="firstDiv">
+                  <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" id="revLogo" alt="">
+                   <br>
+                   <br>
+                   <ul>
+                       <li><a href="https://www.facebook.com/revvindia"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="https://twitter.com/revv_india?lang=en"><i class="fab fa-twitter"></i></a></li>
+                       <li><a href="https://www.instagram.com/revv_india/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                       <li><a href="https://www.youtube.com/channel/UCdASUGQcRPefuQYO6rT331Q"><i class="fab fa-youtube"></i></a></li> 
+                       <li><a href="https://www.linkedin.com/company/revv-self-drive-car/?originalSubdomain=in"><i class="fab fa-linkedin-in"></i></a></li>
+                   </ul>
+          </div>
+          <div>
+            <ul id="secondDiv">
+              <li><a href="">Home</a></li>
+              <li><a href="">Subscriptions</a></li>
+              <li><a href="">Traffis</a></li>
+              <li><a href="">FAQ</a></li> 
+              <li><a href="">Policy</a></li>
+              <li><a href="">Blog</a></li>
+          </ul>
+          </div>
+          <div id="thirdDiv">
+              <h3 id="h3">Have Questions?</h3>
+              <h4 id="h4">24/7 Customer Support</h4>
+              <br>
+              <h2 id="contact">Contact us</h2>
+              <h2 id="h2">+91-8700459092</h2>
+              <h2 id="h2">care@revv.co.in</h2>
+
+          </div>
+
+          
+  </div>
+  <p id="pLine">© 2022 Primemover Mobility Technologies Pvt Ltd. All rights reserved</p>
+</div>
+
+
+ 
+<!-- last text foter creation -->
+<div id="lastTextFoter">
+  <h2  class="lastH2"> <b>Car Rental in Delhi-NCR starting from INR 41 per Hour</b></h2>
+  <p>The world is getting smaller by the day, and yet every time you step out of your
+     home you need a car to take you from one place to another. While owning a car is
+    definitely no longer just a dream for the vast majority of people, there are even
+    more affordable and smarter choices available such as car rental services. With 
+    unmatched ease and comfort of car rental or car hire services, this gives you a 
+    fully maintained vehicle whenever you need but without the hassles of maintaining 
+    it. Through its car rental services, Revv helps the residents of Delhi-NCR for travelling around and even visit nearby tourist places using its huge fleet of different models of cars</p>
+    <br>
+    <h2 class="lastH2"> <b>Best Car Rental in Delhi-NCR by Revv </b></h2>
+    <p>Revv is one of the most premier providers of Car rental services in Delhi-NCR that has the popular car brands such as Honda, Ford, Mahindra, Maruti, Hyundai, Volkswagen, and Toyota. You get the freedom to choose even a different make and model of car for each occasion with packages available on hourly, daily, weekly, monthly and yearly modes. You can also choose between MUV, SUV, Sedan, Hatchback type of cars based on your comfort and the number of people travelling. With no limit on maximum distance you get the ultimate driving experience with no worries of maintenance or extra charges.</p>
+     <br>
+     <h2 class="lastH2"> <b> Choice of best Cars for Hire in Delhi-NCR by Revv </b></h2>
+     <p>The most popular option for renting a car in Delhi-NCR is through Revv, as you can choose from a variety of options and even have the freedom to experiment and choose a car that you feel best fits your needs. If you have a bigger family or simply want to take an adventurous drive, you can choose an SUV such as Toyota Innova, Ford EcoSport, Maruti Brezza, Hyundai Creta or Mahindra XUV. For city driving on compact Delhi-NCR roads, you can choose a hatchback such as Hyundai Grand i10, Hyundai Elite i20, Maruti Swift or the newer Baleno or if you need some additional trunk space choose a Sedan. In the Sedan class the popular choices in Delhi-NCR are Honda City, Maruti Swift Dzire, Hyundai Xcent, and Volkswagen Vento. You can look into the options with Automatic or Manual Transmission for ease of driving and find the joy of driving at your own pace with no liabilities.</p>
+</div>
+
+
+
+</body>
+<script src="./Data/carData.js"></script>
+<script src="./jsFiles/cars.js"></script>
+</html>
+
